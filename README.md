@@ -1,2 +1,2 @@
-### Class Checker
-##### A Python script to check the availability of a class
+### Class Availability Notifier
+##### This Python script uses the requests and playsound libraries to notify the user when a class at UCSC becomes available. It works by constantly accessing a webpage at the given URL and checking if there are any available seats in the class. If there are no available seats, the program prints "Class Closed" along with the number of iterations since it started. If there are seats available, the program prints "Class Open" and plays a sound to alert the user.
